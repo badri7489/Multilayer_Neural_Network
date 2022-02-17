@@ -22,4 +22,4 @@ def train(network, loss, loss_prime, x_train, y_train, epochs = 1000, learning_r
         error /= len(x_train)
         if e % 100 == 0 and verbose:
             print('%d %d, error = %f' %(e + 1, epochs, error))
-    print("Error: ", error)
+    print("Accuracy: ", 1 - error)
