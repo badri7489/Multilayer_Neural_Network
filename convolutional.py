@@ -1,4 +1,3 @@
-from random import randrange
 import numpy as np
 from scipy import signal
 from layer import Layer
